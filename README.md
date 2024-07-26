@@ -4,10 +4,7 @@
 K-Nearest Neighbors (KNN), hem sınıflandırma hem de regresyon problemlerinde kullanılabilen, gözetimli bir makine öğrenme algoritmasıdır. Temel prensibi, yeni bir veri noktasının sınıfını veya değerini, eğitim veri kümesindeki en yakın \( K \) komşusunun sınıflarına veya değerlerine bakarak tahmin etmektir.
 
 ## Temel Prensipler
-1. **Mesafe Ölçümü**: Yeni bir veri noktasının eğitim verisindeki diğer veri noktalarına olan mesafesi hesaplanır. En yaygın kullanılan mesafe ölçümü Öklidyen mesafesidir:
-   \[
-   d(x, y) = \sqrt{\sum_{i=1}^{n} (x_i - y_i)^2}
-   \]
+1. **Mesafe Ölçümü**: Yeni bir veri noktasının eğitim verisindeki diğer veri noktalarına olan mesafesi hesaplanır. En yaygın kullanılan mesafe ölçümü Öklidyen mesafesidir.
    Ancak, Manhattan mesafesi ve Minkowski mesafesi gibi diğer ölçümler de kullanılabilir.
 
 2. **Komşuların Seçimi**: Hesaplanan mesafeler sıralanır ve en küçük mesafeye sahip \( K \) komşu seçilir.
